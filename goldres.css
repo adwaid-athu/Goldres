@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    background: #f6f6f6;
+}
+
+form.form-inline.my-2.my-lg-0 {
+    display: flex;
+}
+input.form-control.mr-sm-2 {
+    width: 215px;
+}
+div#navbarSupportedContent {
+    margin-left:160px;
+}
+.navbar-brand img{
+    width: 190px;
+    height: auto;
+    
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-ligh.bg-primary {
+    height: 140px;
+}
+li.nav-item.active {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+input::placeholder{
+    font-size: 13px;
+    font-weight:300;
+}
+@media(max-width:991px){
+    div#navbarSupportedContent {
+        margin-left: 0px;
+    }
+}
+hr {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    opacity: 0.09 !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+@media (max-width:770px){
+    .carousel-item.one img{
+        content: url(Resorces/sliderm_12.jpg);
+    }
+    .carousel-item.two img{
+        content: url(Resorces/sliderm_13.jpg);
+    }
+        .carousel-item.three img{
+            content: url(Resorces/sliderm_2.jpg);
+        }
+        .carousel-item.four img{
+            content: url(Resorces/sliderm_3n.jpg);
+        } 
+        .carousel-item.five img{
+            content: url(Resorces/sliderm_4.jpg);
+        }
+        .carousel-item.six img{
+            content: url(Resorces/sliderm_55.jpg);
+        }
+        .carousel-item.seven img{
+            content: url(Resorces/sliderm_66n.jpg);
+        }
+        .carousel-item.eight img{
+            content: url(Resorces/sliderm_7.jpg);
+        }
+        .carousel-item.nine img{
+            content: url(Resorces/sliderm_8.jpg);
+        }
+        .carousel-item.ten img{
+            content: url(Resorces/sliderm_9.jpg);
+        }        
+}
+.grids .container{
+    width: 70%;
+}
+.row.justify-content-center {
+    margin-top: 70px;
+}
+.gridA{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:767px){
+    .gridA{
+        height:18rem;
+    }
+}
+.gimg img{
+    width:100%;
+}
+.gridA-text {
+    padding: 0px 0px 0px 0px ;
+}
+.gridA-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #323232;
+    font-family: "Open Sans",sans-serif;
+}
+.gridA-text p{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    color: #323232;  
+    font-family: "Open Sans",sans-serif;
+}
+@media (max-width: 1024px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50% ;
+    }
+}
+.gridA:hover {
+    transition: 600ms;
+    background: #323232;
+}
+
+.gridA:hover .gridA-text h3 {
+    color: #f6f6f6;
+}
+
+.gridA:hover .gridA-text p {
+    color: #f6f6f6;
+}
+.gridB.col-lg-3.col-md-6.col-sm-12.p-0 {
+    position: relative;
+}
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0%;
+    transition: 600ms;
+}
+.inside{
+    width: 185px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 45%;
+    left: 45px;
+    opacity: 100%;
+    transition: 600ms;
+}
+
+.bg:hover{
+    opacity:80%;
+    transition: 600ms;
+}
+section .container{
+    width: 85%;
+}
+.para{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+.slider img{
+    width: 100%;
+}
+@media (max-width:768px){
+    .slider img{
+        content: url(Resorces/Screenshot\ 2024-05-10\ at\ 1.20.44\ AM.png);
+    } 
+}
+.sign{
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.ftContact{
+    font-size: 15px;
+}
+.ftline{
+    height: 2px;
+}
